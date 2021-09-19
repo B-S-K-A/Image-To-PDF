@@ -1,0 +1,41 @@
+{
+    "name": "Image To Pdf",
+    "description": "A bot that can convert images to pdf.",
+    "logo": "https://telegra.ph/file/a1a4d074c5ad18e6486ae.jpg",
+    "keywords": [
+        "Image",
+        "Pdf",
+        "Convert",
+        "Telegram Bot",
+        "King Amda"
+    ],
+    "website": "https://kingamda.tk",
+    "repository": "https://github.com/B-S-K-A/Image-To-PDF",
+    "success_url": "https://t.me/KingAmdaa",
+    "env": {
+        "TG_BOT_TOKEN": {
+            "description": "Your Telegram Bot Token from @BotFather",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Your API Hash from my.telegram.org",
+            "value": ""
+        },
+        "APP_ID": {
+            "description": "Your APP ID from my.telegram.org",
+            "value": ""
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
